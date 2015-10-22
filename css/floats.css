@@ -1,0 +1,22 @@
+
+.header, .aside, .section, .footer {
+	background-color: teal;
+	box-sizing: border-box;
+	text-align: center;
+	padding-top: 25px;
+	height: 100px;
+	margin: 10px;
+	border: dashed 2px black;
+}
+
+.aside, section {
+	display: inline-block;
+}
+
+.aside {
+	width: 30%;
+}
+
+.section {
+	width: 60%;
+}
